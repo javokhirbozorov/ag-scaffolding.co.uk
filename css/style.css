@@ -1,0 +1,1122 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+  background-color: #f5f5f336 ;
+}
+
+/* Navbar design */
+.contact{
+    display: inline;
+    text-align: center;
+    margin-right: 15px;
+}
+
+#nav-contact{
+   width: 100%;
+}
+
+#phone{
+    float: right;
+   
+}
+
+#email-nav{
+  float: right;
+}
+
+#navbarToggler{
+justify-content: center;    
+}
+
+
+
+#top-nav .nav-item .nav-link{
+    border: 1px solid #fff;
+    border-radius: 8px;
+    border: none;
+    margin: 0 15px 0;
+}
+
+.contact-spans{
+    border-top: none;
+    font-family: "Ubuntu";
+    border-radius: 8px;
+    padding: 10px 20px 10px;
+}
+
+
+
+#nav{
+    /* background-image: linear-gradient(to right top, #286bff, #6e63ff, #9e55ff, #c83fff, #ee00f5); */
+    background-color: #6482c3;
+    border-bottom: 1px solid #fff;
+    padding: 10px 0 10px;
+}
+
+.nav-links{
+    position:absolute;
+    margin-top: 200px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+   
+}
+
+
+
+
+
+/* .navbar-dark .navbar-nav .nav-item:nth-child(1){
+    width: 100px;
+}
+nav .start-home,.navbar-dark .navbar-nav .nav-item:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 0;
+}
+.navbar-dark .navbar-nav .nav-item:nth-child(2){
+    width: 110px;
+}
+
+nav .start-residential,.navbar-dark .navbar-nav .nav-item:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+}
+.navbar-dark .navbar-nav .nav-item:nth-child(3){
+    width: 100px;
+}
+nav .start-commercial,.navbar-dark .navbar-nav .nav-item:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 210px;
+}
+.navbar-dark .navbar-nav .nav-item:nth-child(4){
+    width: 160px;
+}
+nav .start-industrial,.navbar-dark .navbar-nav .nav-item:nth-child(4):hover~.animation{
+    width: 160px;
+    left: 310;
+}
+.navbar-dark .navbar-nav .nav-item:nth-child(5){
+    width: 120px;
+}
+nav .start-temporaryRoof,.navbar-dark .navbar-nav .nav-item:nth-child(5):hover~.animation{
+    width: 120px;
+    left: 470px;
+}
+.navbar-dark .navbar-nav .nav-item:nth-child(6){
+    width: 120px;
+}
+
+nav .start-contactUs,.navbar-dark .navbar-nav .nav-item:nth-child(1):hover~.animation{
+    width: 100px;
+    left: 590px;
+} */
+
+/* .navbar-dark .navbar-nav .nav-link:hover{
+    color: black;
+} */
+
+a.navbar-brand{
+  margin-left: 30px;  
+}
+
+#logo{
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 52px;
+    margin-bottom: 0;
+}
+
+#logo-a{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+
+#top-nav .nav-item{
+    margin:15px 0 15px ;
+    text-align: center;
+}
+
+
+#top-nav .nav-item .nav-link:hover{
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+}
+
+#top-nav .active .nav-link{
+    border-bottom: 2px solid #fff;
+    border-radius: 0;
+
+}
+
+/* Body design */
+#home-body{
+    background-image: url(../img/bg-2.jpg)
+}
+
+.home-body{
+   background-color: #cccccc;
+   height: 750px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+#contact-box-heading{
+    font-size: 65px;
+    font-weight: 700;
+}
+#contact-box{
+    background-color: #6482c36e;
+    height: 100%;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 250px;
+    font-size:25px;
+}
+
+.contact-us-button{
+    width: 250px;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.abstract-info{
+    text-align: center;
+    font-family: "Montserrat";
+    padding: 30px 0px 150px;
+}
+
+.abstract-info-header{
+    font-size:36px;
+    margin: 10px 0 20px;
+    color: #fff;
+    background-color: #6482c3b2;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 70px;
+    
+}
+
+.abstract-info-paragraph{
+font-size: 20px;
+color: #7f7f7fd3;
+}
+
+.separator{
+    border: 10px solid;
+    border-color: #6482c3b2;
+    border-style: dotted;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 50px;
+    margin: 10px auto 20px;
+
+}
+
+
+/* SERVICE CARDS DESIGN */
+.service-cards{
+    width: auto;
+   /* border-radius: 25px; */
+   box-shadow: 0px 2px 10px rgba(0,0,0,0.4);
+   margin-top: 40px;
+}
+
+
+.card-body{
+    margin: auto;
+}
+
+.card-img-top{
+    height: 380px;
+
+}
+
+.service-buttons{
+    font-size: 16px;
+    width: 170px;
+}
+#services{
+    background-color: #6482c38e;
+    padding: 130px;
+}
+
+.services-header{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+    /* background-color: #6482c3b2; */
+    padding: 20px;
+    text-shadow:0px 2px 10px rgba(0,0,0,0.15);
+    /* box-shadow: 0px 2px 10px rgba(0,0,0,0.2); */
+}
+
+.services-header h4{
+    font-size: 40px;
+}
+
+/* Gallery design */
+
+.gallery-block{
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+}
+
+.gallery-block .heading{
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.gallery-block.cards-gallery .card{
+    transition: 0.4s ease;
+}
+
+.gallery-block.cards-gallery .card img{
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+.gallery-block.cards-gallery a {
+    color: #212529;
+}
+
+.gallery-block.cards-gallery a:hover{
+    text-decoration: none;
+}
+.gallery-block.cards-gallery .card{
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media(min-width:576px){
+    .gallery-block .transform-on-hover:hover{
+        transform: translateY(-10px) scale(1.02);
+        box-shadow: 0px 10px 10px rgba(0,0,0,0.15) !important;
+
+    }
+}
+
+.heading{
+    background-color: #6482c3b2;
+    padding: 20px;
+    color: #fff;
+}
+
+.works{
+    font-size: 40px;
+}
+.gallery-items{
+    margin: 15px 0 15px;
+}
+/* footer design */
+#footer{
+    /* background-image: linear-gradient(to right top, #286bff, #6e63ff, #9e55ff, #c83fff, #ee00f5); */
+    background-color: #6482c3;
+}
+
+
+#footer-nav ul li a{
+    /* color: rgba(255, 255, 255, 0.685); */
+    font-family: "Montserrat";
+    font-weight:600;
+    font-size: 18px;
+    width: auto;
+    border: none;
+    
+}
+  
+.row.footer-container{
+    padding: 50px;
+}
+
+
+.footer-contact{
+    text-align:right;
+    margin: 80px 0 30px;
+    
+}
+
+#sa-logo{
+    width: 50%;
+   
+}
+
+#sa-logo-container{
+    margin: 60px 0 40px;
+}
+
+.contact-spans{
+    margin: 0 4px 0;
+}
+
+
+.footer-active{
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+}
+/* Sign */
+.sign{
+    margin:50px auto 0;
+    color: #497097;
+}
+
+/* ================================================================================================================================ */
+/* ====================================================|- RESIDENTIAL DESIGN -|==================================================== */
+/* ================================================================================================================================ */
+
+
+#residential-home-body{
+    background-image: url(../img/residential-bg.jpg);
+}
+/* ================================================================================================================================ */
+/* ====================================================|- COMMERCIAL DESIGN -|==================================================== */
+/* ================================================================================================================================ */
+
+
+#commercial-home-body{
+    background-image: url(../img/commercial-bg.jpg);
+}
+/* ================================================================================================================================ */
+/* ====================================================|- INDUSTRIAL DESIGN -|==================================================== */
+/* ================================================================================================================================ */
+
+
+#industrial-home-body{
+    background-image: url(../img/industrial-bg2.jpg);
+}
+
+.industrial-gallery-items:before{
+    content: '';
+    background: #000;
+    
+
+}
+/* ================================================================================================================================ */
+/* ====================================================|- TEMPORARY ROOF DESIGN -|==================================================== */
+/* ================================================================================================================================ */
+
+
+#temporaryRoof-home-body{
+    background-image: url(../img/works/img-13.jpg);
+}
+/* ================================================================================================================================ */
+/* ====================================================|- CONTACT US DESIGN -|==================================================== */
+/* ================================================================================================================================ */
+
+
+#contact-home-body{
+    background-image: url(../img/home-bg.jpg);
+}
+
+.contactUs-page-home-body{
+    height: 100vh;
+}
+#contactUs-page-contact-box{
+    /* background-color: rgba(39, 59, 150, 0.5); */
+    background-color: #2b364e7a;
+    height: 100%;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 150px;
+    font-size:25px;
+}
+.contactUs-home-body{
+    justify-content: center;
+    text-align: center;
+}
+.contactUs-inner-container{
+   
+    width: min-content;
+    margin: auto;
+}
+
+.conctactUs-anchors{
+    color:#fff;
+    text-shadow:0px 2px 10px rgba(0,0,0,0.15);
+    border: none;
+    font-size: 28px;
+}
+
+.contactUs-page-email-container{
+    margin: 50px 20px 20px;
+}
+
+.contactUs-page-icons{
+    font-size: 60px;
+}
+
+
+
+/* FORM DESIGN */
+.form-group{
+    color: #fff;
+    width: 50%;
+    margin: 20px auto 30px;
+}
+
+.form-buttons{
+    margin: 30px ;
+    text-align: center;
+}
+
+.contactUs-form-header{
+    color: #fff;
+    text-align: center;
+    margin: 50px 20px 50px;
+}
+
+.form-section{
+    background-color: #6482c36e;
+    margin: auto;
+}
+
+label{
+    font-size: 20px;
+}
+
+.form-button-items{
+    margin: auto 5px;
+}
+
+.scroll-down{
+    color: #fff;
+    text-align: center;
+    margin: 100px auto 30px;
+    font-size: 20px;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+
+/* For PHONES */
+@media (max-width:600px) {
+    #nav-contact{
+        display: none;
+    }
+
+    .navbar-toggler {
+        padding: .15rem .25rem;
+        font-size: 15px;
+        line-height: 1;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+    }
+
+
+    a#logo.navbar-brand{
+        margin: auto;
+        margin-right: 0px;
+    }
+
+    #logo-a {
+        margin: auto;
+        font-size: 14px;
+    }
+
+    #contact-box-heading {
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    p#contact-box-paragraph{
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.705);
+    }
+
+
+
+    .contact-us-button {
+        width: 150px;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    #contact-box {
+        background-color: #6482c36e;
+        height: 100vh;
+        color: #fff;
+        font-family: "Montserrat";
+        text-align: center;
+        padding-top: 120px;
+        font-size: 25px;
+    }
+
+    #home-body{
+        height: 100vh;
+    }
+
+
+    .abstract-info-header {
+        font-size: 16px;
+        color: #fff;
+        background-color: #6482c3b2;
+        width: 85%;
+        margin: auto;
+        padding: 20px;
+        margin-bottom: 36px;
+    }
+
+    .abstract-info-paragraph {
+        font-size: 12px;
+        width: 70%;
+        margin: auto;
+        color: #7f7f7fd3;
+    }
+
+    #services {
+        background-color: #6482c38e;
+        padding: 20px;
+    }
+
+    .card-img-top {
+        height: 300px;
+    }
+
+    #baguetteBox-overlay .full-image img {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        max-height: 100%;
+        max-width: 91%;
+        vertical-align: middle;
+        -webkit-box-shadow: 0 0 8px rgba(0,0,0,.6);
+        -moz-box-shadow: 0 0 8px rgba(0,0,0,.6);
+        box-shadow: 0 0 8px rgba(0,0,0,.6);
+    }
+    .contact-spans {
+        border-top: none;
+        font-family: "Ubuntu";
+        border-radius: 8px;
+        padding: 10px 17px 10px;
+        margin: 1px;
+        font-size: 12px;
+    }
+
+    .footer-contact {
+        text-align: unset;
+        margin: 30px 0 30px;
+    }
+
+    #sa-logo {
+        width: 55%;
+        margin: 40px 0px 0px 55px;
+       
+    }
+
+    .abstract-info {
+        text-align: center;
+        font-family: "Montserrat";
+        padding: 30px 0px 40px;
+    }
+    a.navbar-brand {
+        margin: auto;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 14px;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .home-body {
+        background-color: #cccccc;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+
+    .form-section{
+        display: none;
+    }
+
+    .contactUs-inner-container {
+        width: auto;
+        margin: auto;
+    }
+
+    .conctactUs-anchors {
+        color: #fff;
+        text-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+        border: none;
+        font-size: 18px;
+    }
+
+    #contactUs-page-contact-box {
+        /* background-color: rgba(39, 59, 150, 0.5); */
+        background-color: #2b364e7a;
+        height: 100vh;
+        color: #fff;
+        font-family: "Montserrat";
+        text-align: center;
+        padding-top: 70px;
+        font-size: 25px;
+        padding-right: 0;
+    }
+}
+
+
+/* TABLETS */
+
+@media (min-width: 600px) {
+    #nav-contact{
+        display: none;
+    }
+
+    #logo-a {
+        margin: auto;
+        font-size: 14px;
+    }
+
+    #contact-box-heading {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    p#contact-box-paragraph{
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.705);
+    }
+
+
+
+    .contact-us-button {
+        width: 200px;
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+
+    #contact-box {
+        background-color: #6482c36e;
+        height: 100vh;
+        color: #fff;
+        font-family: "Montserrat";
+        text-align: center;
+        padding-top: 170px;
+        font-size: 25px;
+    }
+
+    #home-body{
+        height: 100vh;
+    }
+
+
+    
+    /*  */
+    .abstract-info-header {
+        font-size: 20px;
+        color: #fff;
+        background-color: #6482c3b2;
+        width: 85%;
+        margin: auto;
+        padding: 20px;
+        margin-bottom: 36px;
+    }
+
+    .abstract-info-paragraph {
+        font-size: 14px;
+        width: 70%;
+        margin: auto;
+        color: #7f7f7fd3;
+    }
+
+    #services {
+        background-color: #6482c38e;
+        padding: 20px;
+    }
+
+    .card-img-top {
+        height: 450px;
+    }
+
+    /* #baguetteBox-overlay .full-image img {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        max-height: 100%;
+        max-width: 91%;
+        vertical-align: middle;
+        -webkit-box-shadow: 0 0 8px rgba(0,0,0,.6);
+        -moz-box-shadow: 0 0 8px rgba(0,0,0,.6);
+        box-shadow: 0 0 8px rgba(0,0,0,.6);
+    } */
+    .contact-spans {
+        border-top: none;
+        font-family: "Ubuntu";
+        border-radius: 8px;
+        padding: 10px 80px 10px;
+        margin: 1px;
+        font-size: 14px;
+    }
+
+    .footer-contact {
+        text-align: unset;
+        margin: 30px 0 30px;
+    }
+
+    #sa-logo {
+        width: 55%;
+        margin: 40px 0px 0px 110px;
+       
+    }
+
+    .abstract-info {
+        text-align: center;
+        font-family: "Montserrat";
+        padding: 30px 0px 40px;
+    }
+    a.navbar-brand {
+        margin: auto;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 14px;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .home-body {
+        background-color: #cccccc;
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+    }
+
+    .form-section{
+        display: none;
+    }
+
+    .contactUs-inner-container {
+        width: auto;
+        margin: auto;
+    }
+
+    .conctactUs-anchors {
+        color: #fff;
+        text-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+        border: none;
+        font-size: 23px;
+    }
+
+    #contactUs-page-contact-box {
+        /* background-color: rgba(39, 59, 150, 0.5); */
+        background-color: #2b364e7a;
+        height: 100vh;
+        color: #fff;
+        font-family: "Montserrat";
+        text-align: center;
+        padding-top: 70px;
+        font-size: 25px;
+        padding-right: 0;
+    }
+}
+
+@media(min-width:768px) {
+    #logo-a {
+       
+        margin-left: 300px;
+        
+    }
+
+    #contact-box {
+        padding-top: 211px;
+    }
+
+    .card-img-top {
+        height: 368px;
+    }
+
+    #sa-logo {
+       
+        margin: 40px 0px 0px 145px;
+    }
+}
+
+@media(min-width:992px){
+    #logo-a {
+        margin-left: 25px;
+        font-size: 10px;
+    }
+
+    .navbar-dark .navbar-nav .nav-link {
+        
+        font-size: 13px;
+    }
+
+   #logo{
+       font-size: 36px;
+   } 
+
+   p#contact-box-paragraph {
+    font-size: 14px;
+    color: rgb(255 255 255 / 90%);
+}
+
+#home-body{
+    height: 85vh;
+}
+
+#contact-box {
+    padding-top: 150px;
+    height: 85vh;
+}
+
+.abstract-info-header {
+    font-size: 23px;
+}
+
+.cards-gallery .card-img-top {
+    height: 270px;
+}
+
+#services .card-img-top{
+    height: 200px;
+}
+
+.contact-spans {
+    border-top: none;
+    font-family: Ubuntu;
+    border-radius: 8px;
+    padding: 11px 71px;
+    margin: 8px;
+    font-size: 14px;
+    width: 200px;
+   
+}
+
+.footer-contact {
+ 
+    text-align: end;
+    
+}
+#sa-logo {
+    margin: 40px 0px 0px 90px;
+    width: 69%;
+}
+
+.form-section{
+        display: inline-block;
+    height: 85vh;
+}
+
+label{
+    font-size: 16px;
+    text-shadow: 0px 2px 10px rgba(20, 19, 19, 0.15);
+}
+
+.contactUs-form-header {
+    margin: 24px 15px 12px;
+}
+.form-group {
+    color: #fff;
+    width: 68%;
+    margin: 15px auto 4px;
+    background-color: rgba(0, 0, 0, 0.308);
+    border-radius: 4px;
+}
+
+.scroll-down {
+    margin:0;
+}
+
+.form-control{
+    background-color: #ffffffc4;
+}
+
+#home-body {
+    height: 53vh;
+}
+
+#contact-box {
+   padding-top: 80px;
+    height: 53vh;
+}
+
+#contact-box-heading {
+    font-size: 33px;
+}
+
+.contact-us-button {
+    width: 180px;
+    margin-top: 0;
+    font-size: 17px;
+ 
+}
+
+.home-body{
+    height: 53vh;
+   
+}
+
+#contact-home-body{
+    height: 85vh;
+}
+
+#contactUs-page-contact-box {
+    /* background-color: rgba(39, 59, 150, 0.5); */
+    background-color: #2b364e7a;
+    height: 85vh;
+    color: #fff;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 70px;
+    font-size: 25px;
+    padding-right: 0;
+}
+
+.form-buttons {
+    margin: 20px;
+}
+
+a.navbar-brand {
+    margin-left: 25px;
+    font-size: 10px;
+
+}
+
+.services-header{
+    margin-bottom: 0;
+}
+}
+
+
+@media (min-width: 1200px) {
+    #contact-box {
+        padding-top: 133px;
+        height: 58vh;
+    }
+
+    .home-body{
+        height: 58vh;
+    }
+    #home-body{
+        height: 58vh;
+    }
+
+    .cards-gallery .card-img-top {
+        height: 300px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+    #logo-a {
+        margin-left: 200px;
+     
+    }
+
+    .navbar-dark .navbar-brand {
+        color: #fff;
+        margin-left: 225px;
+    }
+}
+
+@media (min-width: 1440px){
+    #contact-box {
+        padding-top: 180px;
+        height: 61vh;
+    }
+
+    .home-body{
+        height: 61vh;
+    }
+    #home-body{
+        height: 61vh;
+    }
+
+    #contactUs-page-contact-box {
+       
+        height: 87.5vh;
+        padding-top: 180px;
+        
+    }
+
+    #contact-home-body{
+        height: 87.5vh;
+    }
+
+    .form-section{
+        height: 87.5vh;
+    }
+
+    .form-group {
+        margin: 52px auto 4px;
+       
+    }
+    #services .card-img-top {
+        height: 250px;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        font-size: 15px;
+    }
+}
+
+
+@media(max-height:600px){
+
+    #contact-box{
+        padding-top: 30px;
+    }
+    #contact-box-heading {
+        font-size: 38px;
+        font-weight: 700;
+    }
+
+    p#contact-box-paragraph {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .contact-us-button {
+        width: 175px;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .contactUs-page-tel-container{
+        width: 40%;
+        position: absolute;
+        /* float: right; */
+        /* justify-content: right; */
+        margin-left: 50%;
+    }
+    
+
+    .contactUs-page-email-container{
+        width: 40%;
+        margin-left: 60px;
+        margin-top: 0;
+    }
+}
